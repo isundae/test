@@ -77,7 +77,9 @@ const sendMsg = async (
 ) => {
   const access_token = await getAccessToken()
   const tpl = await getTpl()
-  return await axios.post(url, tpl, { params: { access_token } })
+  const result = await axios.post(url, tpl, { params: { access_token } })
+  console.log(result)
+  return result
 }
 
 sendMsg()
