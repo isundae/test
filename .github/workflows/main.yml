@@ -27,11 +27,11 @@ jobs:
     - run: npm start
 
     env:
-      corpid: ${{wwa8cb2b7b071a1196}}
-      agentid: ${{1000005}}
-      corpsecret: ${{DuX956niaBh0HUWq301HefLFBM2hiqvuwBszzpkMBLU}}
-      weather_key: ${{c56b2a044f0d4ed09876f7a88a5ddddc}}
-      weather_location: ${{119.33,41.60}}
-      anniversary: ${{2020-01-01}}
-      birthday: ${{2023-01-01}}
-      myurl: ${{https://www.baidu.com}}
+      corpid: "wwa8cb2b7b071a1196"
+      agentid: 1000005
+      corpsecret: "DuX956niaBh0HUWq301HefLFBM2hiqvuwBszzpkMBLU"
+      weather_key: "c56b2a044f0d4ed09876f7a88a5ddddc"
+      weather_location: "119.33,41.60"
+      anniversary: "2020-01-01"
+      birthday: "2023-01-01"
+      myurl: "https://www.baidu.com"
